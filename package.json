@@ -1,0 +1,54 @@
+{
+    "author": "Lucas Brunel",
+    "bugs": {
+        "url": "https://github.com/lucas-by/vscode-samcef-language/issues/"
+    },
+    "name": "samcef-syntax-highlight",
+    "displayName": "Samcef syntax highlight",
+    "description": "Samcef language support in VS Code",
+    "version": "1.0.0",
+    "keywords": ["samcef", "language", "samtech"],
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "categories": ["Programming Languages"],
+        "contributes": {
+            "languages": [
+                {
+                    "id": "samcef",
+                    "aliases": [
+                        "Samcef commands",
+                        "Samcef"
+                    ],
+                    "extensions": [
+                        ".dat",
+                        ".spy",
+                        ".spy#1",
+                        ".spy#2",
+                        ".spy#3",
+                        ".spy#4",
+                        ".spy#5",
+                        ".spy#6",
+                        ".spy#7",
+                        ".spy#8",
+                        ".spy#9"
+                    ]
+                }
+            ],
+            "grammars": [
+                {
+                    "language": "samcef",
+                    "scopeName": "source.samcef",
+                    "path": "./syntaxes/samcef.json"
+                }
+            ]
+        },
+    "icon": "images/samdat_logo.png",
+    "homepage": "https://docs.plm.automation.siemens.com/data_services/resources/nx/1899/nx_help/custom/en_US/samcef_solver_documentation/index.html",
+    "licence": "MIT",
+    "publisher": "lucas-brunel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lucas-by/vscode-samcef-language.git"
+    }
+}

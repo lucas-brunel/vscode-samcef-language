@@ -1,0 +1,38 @@
+! Cet exemple n'est pas un jeu de données fonctionnel
+.DEL.*
+.UNIT MM TONNE KELVIN
+MODE ECHO 0
+MODE LECTURE 250
+
+ABRE '/offset' "value"  ! Inline comment
+! Full line comment
+.NOE
+    I 1   X (/abrev:2)  Y (0.5+/offset:3)   Z SIN(30)
+    I 2   X 1e-03       Y (+20.0+/offset)   Z /offset_10
+    I 3   X LOG(1.234)  Y (/offset+120)     Z (12.3E+2+16648.0)
+#IF (ABS(/G1) GT (MIN(0.005, /G2, /G3))) THEN
+;ECHO "message 240"
+#ELSE
+;ECHO "message 200"
+#ENDIF
+
+.MAI
+    I 1 NOEUD 1 2 3
+
+.SEL GROUP "GROUP_NAME" NOEUDS
+    I 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 $
+    22 23 24 25 26 27 28 29
+
+.RBE N 100000 GROUP "ENCASTREMENT" OPT 3  ! Commentaires inline
+
+.GEL TEMP 293.0
+
+.SAM
+    NOP1    -1
+
+.DES
+    GRAP VISEE  2 2 1
+    GRAP PEAU TRI
+    VI
+
+RETURN CLOSE

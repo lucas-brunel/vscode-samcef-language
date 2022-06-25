@@ -1,0 +1,79 @@
+{
+  "scopeName": "source.samcef",
+  "name": "samcef",
+  "fileTypes": [
+    "dat",
+    "spy",
+    "spy#1",
+    "spy#2",
+    "spy#3",
+    "spy#4",
+    "spy#5",
+    "spy#6",
+    "spy#7",
+    "spy#8",
+    "spy#9"
+  ],
+  "patterns": [
+    {
+      "comment": "Comments",
+      "match": "!.*$",
+      "name": "comment.samcef"
+    },
+    {
+      "comment": "Line continuation ($)",
+      "match": "\\$",
+      "name": "comment.samcef"
+    },
+    {
+      "comment": "Commands not starting with a dot",
+      "match": "\\b(ABRE|abre|ASSI|assi|BAND|band|CLOC|cloc|CLOSE|close|DRAF|draf|ECHO|echo|EDIT|edit|EVAL|eval|EXIT|exit|GRAP|grap|HELP|help|PALE|pale|PICK|pick|PLOT|plot|INPU|inpu|MODE|mode|RETU|retu|SETP|setp|SHOW|show|SYST|syst|TITR|titr|VI|vi|WAIT|wait)\\w*\\b",
+      "name": "meta.require.samcef"
+    },
+    {
+      "comment": "Commands starting with a dot",
+      "match": "^\\.\\w\\w\\w+",
+      "name": "meta.require.samcef"
+    },
+    {
+      "comment": "#INQ command",
+      "match": "#(INQ|inq)\\w*",
+      "name": "meta.require.samcef"
+    },
+    {
+      "comment": "Strings between \"...\"",
+      "match": "\"([^\"]*)\"",
+      "name": "string.double.samcef"
+    },
+    {
+      "comment": "Strings between '...'",
+      "match": "'([^']*)'",
+      "name": "string.double.samcef"
+    },
+    {
+      "comment": "Numbers",
+      "match": "(?<!\\w)\\d+\\.?\\d*[Ee]?[\\+\\-]?\\d*\\b",
+      "name": "constant.numeric.float.samcef"
+    },
+    {
+      "comment": "Variables",
+      "match": "\\/(\\w+|_+|\\d+)",
+      "name": "variable.samcef"
+    },
+    {
+      "comment": "Maths functions",
+      "match": "(SIN|sin|COS|cos|TAN|tan|ASIN|asin|ACOS|acos|ATAN|atan|LOG|log|LN|ln|ABS|abs|INT|int|SQR|sqr|MIN|min|MAX|max|MOD|mod|SIGN|sign|EXP|exp)(?=\\()",
+      "name": "keyword.samcef"
+    },
+    {
+      "comment": "Maths constants",
+      "match": "\\b(PI|pi)\\b",
+      "name": "keyword.samcef"
+    },
+    {
+      "comment": "Logical expressions",
+      "match": "(\\#(IF|if|ELSEIF|elseif|ELSE|else|ENDIF|endif)|\\b(THEN|then)\\b)",
+      "name": "keyword.samcef"
+    }
+  ]
+}
