@@ -6,6 +6,8 @@ This VS Code extention brings Samcef language support. For now, this extension o
 
 ![preview.png](https://raw.githubusercontent.com/lucas-by/vscode-samcef-language/main/images/preview.png)
 
+**Note:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Samtech, or any of its subsidiaries or its affiliates.
+
 # Bug report and feature request
 
 For a bug report, please give me a way to reproduce the bug so it can be fixed.
