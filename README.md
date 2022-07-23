@@ -1,3 +1,5 @@
+**Note:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Samtech, or any of its subsidiaries or its affiliates.
+
 # Samcef language for VSCode
 
 Improve your Samcef productivity with syntax highlight!
@@ -5,8 +7,6 @@ Improve your Samcef productivity with syntax highlight!
 This VS Code extention brings Samcef language support. For now, this extension only supports syntax highlight for Samcef commands. Down below, you can find a preview.
 
 ![preview.png](https://raw.githubusercontent.com/lucas-by/vscode-samcef-language/main/images/preview.png)
-
-**Note:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Samtech, or any of its subsidiaries or its affiliates.
 
 # Bug report and feature request
 

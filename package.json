@@ -6,7 +6,7 @@
     "name": "samcef-syntax-highlight",
     "displayName": "Samcef syntax highlight",
     "description": "Samcef language support in VS Code",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": [
         "samcef",
         "language",

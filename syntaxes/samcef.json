@@ -22,7 +22,7 @@
     },
     {
       "comment": "Line continuation ($)",
-      "match": "\\$",
+      "match": "[\\s\\t]\\$",
       "name": "comment.samcef"
     },
     {
