@@ -1,6 +1,8 @@
-**Note:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Samtech, or any of its subsidiaries or its affiliates.
+**Note:** This extension is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Samtech, or any of its subsidiaries or its affiliates.
 
 # Samcef language for VSCode
+
+<img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/lucas-brunel.samcef-syntax-highlight"> <img alt="MIT Licence" src="https://img.shields.io/github/license/lucas-by/vscode-samcef-language"> <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/lucas-brunel.samcef-syntax-highlight">
 
 Improve your Samcef productivity with syntax highlight!
 
