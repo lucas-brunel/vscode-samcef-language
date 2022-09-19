@@ -4,9 +4,13 @@
 
 <img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/lucas-brunel.samcef-syntax-highlight"> <img alt="MIT Licence" src="https://img.shields.io/github/license/lucas-by/vscode-samcef-language"> <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/lucas-brunel.samcef-syntax-highlight">
 
-Improve your Samcef productivity with syntax highlight!
+Improve your Samcef productivity with Samcef language support for VSCode!
 
-This VS Code extention brings Samcef language support. For now, this extension only supports syntax highlight for Samcef commands. Down below, you can find a preview.
+**Features:**
+
+- Syntax highlight, highlight parenthesis pairs
+- Autoclosing: parenthesis and quotation marks
+- Surrounding pairs: parenthesis and quotation marks
 
 ![preview.png](https://raw.githubusercontent.com/lucas-by/vscode-samcef-language/main/images/preview.png)
 
@@ -18,11 +22,10 @@ Both bug reports and feature requests shall be made [there](https://github.com/l
 
 # Known issues/potential improvements
 
- - No auto-completion
- - No auto-closing parenthesis, brackets, etc.
- - Incorrect syntax might be appropriatly highlighted, code coloration does not mean correct syntax
- - Syntax highlight might not work with more "exotic" syntax I've never met
+- No auto-completion, auto-indent
+- Incorrect syntax might be appropriately highlighted, code coloration does not mean correct syntax
+- Syntax highlight might not work with more "exotic" syntax I've never met
 
 # Contributions
 
-Thanks a lot to [Solène Brunel](https://github.com/solene-sephi) for the beautiful extention icon!
+Thanks a lot to [Solène Brunel](https://github.com/solene-sephi) for the beautiful extension icon!
