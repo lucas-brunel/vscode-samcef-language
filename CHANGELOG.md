@@ -1,8 +1,12 @@
 # Changelog
 
-## 1.1.0
+## 1.1.1 (9 October 2022)
 
-Add: 
+Edit CHANGELOG for 1.1.0 and README.
+
+## 1.1.0 (19 September 2022)
+
+Add:
 - Highlight parenthesis pairs
 - Autoclosing parenthesis and quotation marks
 - Surrounding pairs for parenthesis and quotation marks
