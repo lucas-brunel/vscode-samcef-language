@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0
+
+Add: 
+- Highlight parenthesis pairs
+- Autoclosing parenthesis and quotation marks
+- Surrounding pairs for parenthesis and quotation marks
+
 ## 1.0.3 (6 September 2022)
 
 Add shields (installs, licence and version) at the top of the README.md file.

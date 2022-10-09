@@ -2,7 +2,7 @@
 
 # Samcef language for VSCode
 
-<img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/lucas-brunel.samcef-syntax-highlight"> <img alt="MIT Licence" src="https://img.shields.io/github/license/lucas-by/vscode-samcef-language"> <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/lucas-brunel.samcef-syntax-highlight">
+<img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/lucas-brunel.samcef-syntax-highlight"> <img alt="Visual Studio Marketplace Downloads" src="https://img.shields.io/visual-studio-marketplace/d/lucas-brunel.samcef-syntax-highlight"> <img alt="MIT Licence" src="https://img.shields.io/github/license/lucas-by/vscode-samcef-language"> <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/lucas-brunel.samcef-syntax-highlight">
 
 Improve your Samcef productivity with Samcef language support for VSCode!
 
